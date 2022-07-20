@@ -15,7 +15,7 @@ const dogs = [
     picSrc:"https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg",
     toys: [
       "Bone",
-      "Water bottle"
+      "Plastic Cup"
     ],
   },
   {
@@ -24,7 +24,7 @@ const dogs = [
     picSrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_LPwIgYq5d18s_WtB48WAZeFRKDAK7idvqQ&usqp=CAU",
     toys: [
         "Ball",
-        "Shoes"
+        "Pillow"
     ],
   },
   {
@@ -32,13 +32,13 @@ const dogs = [
     age: `Your doggie is ${calculateDogAge(2)} years old in dog years!`,
     picSrc:"https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/05-14/How+Do+Dogs+Get+Hernias+_+ASPCA+Pet+Insurance+_+shiba+inu+with+an+orange+collar+resting+on+a+tan+chair-min.jpg",
     toys: [
-        "Ducklings",
-        "Tabo"
+        "Rock",
+        "Stick"
     ],
   }
 ];
 
-let dogHTML = ""; // eto yung ilalagay sa baba
+let dogHTML = "";
 
 dogs.forEach(dog => {
     let dogEntry = `
@@ -51,7 +51,6 @@ dogs.forEach(dog => {
             })}</h3></br>
         </div>
     `; 
-    // dito ka mag-add
     dogHTML += dogEntry;
 })
 
