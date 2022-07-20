@@ -44,7 +44,7 @@ dogs.forEach(dog => {
     let dogEntry = `
         <div class="dogentry">
             <h3>Name: ${dog.name}</h3>
-            <img src=${dog.picSrc} height="100px">
+            <img src=${dog.picSrc}>
             <h3>Age: ${dog.age}</h3>
             <h3>Fave toys: ${dog.toys.reduce((total, currentToy) => {
               return total + "," + currentToy;
