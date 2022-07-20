@@ -56,28 +56,3 @@ dogs.forEach(dog => {
 })
 
 document.getElementById("dog").innerHTML = dogHTML;
-
-// // common way
-// function func1(dog) {
-//   // do something
-//   console.log(dog);
-// }
-// array.forEach(func1)
-
-// // js standard way
-// const func2 = function(dog) {
-//   console.log(dog);
-// }
-// array.forEach(func2);
-
-// // arrow notation
-// const func3 = (dog) => {
-//   console.log(dog);
-// }
-// array.forEach(func3);
-
-// // using anonymoous arrow notation function
-// array.forEach((parameter1, parameter2, etc) => {
-//   // do something
-// })
-  
